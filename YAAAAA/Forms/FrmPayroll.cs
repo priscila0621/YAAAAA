@@ -57,6 +57,8 @@ namespace YAAAAA.Forms
             LblNetSalary.Text = payroll.NetSalary.ToString("C", culture);
         }
 
+
+
         private void BtnSave_Click(object sender, EventArgs e)
         {
             try

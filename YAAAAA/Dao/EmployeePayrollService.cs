@@ -9,12 +9,8 @@ namespace YAAAAA.Services
 {
     public class EmployeePayrollService
     {
-        private List<Payroll> payrollRecords;
+        List<Payroll> payrollRecords = new List<Payroll>();
 
-        public EmployeePayrollService()
-        {
-            payrollRecords = new List<Payroll>();
-        }
 
         // Método para agregar un nuevo registro de nómina
         public void AddPayrollRecord(Payroll payroll)

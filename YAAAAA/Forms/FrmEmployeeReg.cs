@@ -113,5 +113,55 @@ namespace YAAAAA.Forms
                 this.Close(); // Cerrar el formulario
             }
         }
+
+        private bool ValidarDatos()
+        {
+            
+            if (TbNames.Text.Length > 50)
+            {
+                MessageBox.Show("El nombre no puede exceder los 50 caracteres.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+           
+            if (TbLastNames.Text.Length > 50)
+            {
+                MessageBox.Show("Los apellidos no pueden exceder los 50 caracteres.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (TbIdNumber.Text.Length != 12)
+            {
+                MessageBox.Show("Ingrese una cédula válida", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            
+            if (TbPhoneNumber.Text.Length != 8 || !TbPhoneNumber.Text.All(char.IsDigit))
+            {
+                MessageBox.Show("Ingrese un número de telefono válido", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            
+            if (TbAddress.Text.Length > 100)
+            {
+                MessageBox.Show("La dirección no puede exceder los 100 caracteres.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            if (TbID.Text.Length > 50)
+            {
+                MessageBox.Show("El ID no puede exceder los 50 caracteres.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            
+            return true;
+        }
+        private void TbNames_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

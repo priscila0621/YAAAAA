@@ -105,10 +105,10 @@
             // 
             // TbID
             // 
-            this.TbID.Font = new System.Drawing.Font("Carlito", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbID.Location = new System.Drawing.Point(90, 27);
             this.TbID.Name = "TbID";
-            this.TbID.Size = new System.Drawing.Size(83, 23);
+            this.TbID.Size = new System.Drawing.Size(83, 22);
             this.TbID.TabIndex = 4;
             // 
             // label1
@@ -173,10 +173,10 @@
             // 
             // TbAddress
             // 
-            this.TbAddress.Font = new System.Drawing.Font("Carlito", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbAddress.Location = new System.Drawing.Point(90, 169);
             this.TbAddress.Name = "TbAddress";
-            this.TbAddress.Size = new System.Drawing.Size(655, 23);
+            this.TbAddress.Size = new System.Drawing.Size(655, 22);
             this.TbAddress.TabIndex = 7;
             // 
             // label11
@@ -198,10 +198,10 @@
             // 
             // TbLastNames
             // 
-            this.TbLastNames.Font = new System.Drawing.Font("Carlito", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbLastNames.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbLastNames.Location = new System.Drawing.Point(520, 27);
             this.TbLastNames.Name = "TbLastNames";
-            this.TbLastNames.Size = new System.Drawing.Size(224, 23);
+            this.TbLastNames.Size = new System.Drawing.Size(224, 22);
             this.TbLastNames.TabIndex = 4;
             // 
             // label7
@@ -216,26 +216,26 @@
             // 
             // TbEmail
             // 
-            this.TbEmail.Font = new System.Drawing.Font("Carlito", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbEmail.Location = new System.Drawing.Point(442, 128);
             this.TbEmail.Name = "TbEmail";
-            this.TbEmail.Size = new System.Drawing.Size(303, 23);
+            this.TbEmail.Size = new System.Drawing.Size(303, 22);
             this.TbEmail.TabIndex = 4;
             // 
             // TbPhoneNumber
             // 
-            this.TbPhoneNumber.Font = new System.Drawing.Font("Carlito", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbPhoneNumber.Location = new System.Drawing.Point(141, 128);
             this.TbPhoneNumber.Name = "TbPhoneNumber";
-            this.TbPhoneNumber.Size = new System.Drawing.Size(173, 23);
+            this.TbPhoneNumber.Size = new System.Drawing.Size(173, 22);
             this.TbPhoneNumber.TabIndex = 4;
             // 
             // TbIdNumber
             // 
-            this.TbIdNumber.Font = new System.Drawing.Font("Carlito", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbIdNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbIdNumber.Location = new System.Drawing.Point(126, 78);
             this.TbIdNumber.Name = "TbIdNumber";
-            this.TbIdNumber.Size = new System.Drawing.Size(224, 23);
+            this.TbIdNumber.Size = new System.Drawing.Size(224, 22);
             this.TbIdNumber.TabIndex = 4;
             // 
             // label2
@@ -270,11 +270,12 @@
             // 
             // TbNames
             // 
-            this.TbNames.Font = new System.Drawing.Font("Carlito", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TbNames.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TbNames.Location = new System.Drawing.Point(99, 29);
             this.TbNames.Name = "TbNames";
-            this.TbNames.Size = new System.Drawing.Size(224, 23);
+            this.TbNames.Size = new System.Drawing.Size(224, 22);
             this.TbNames.TabIndex = 4;
+            this.TbNames.TextChanged += new System.EventHandler(this.TbNames_TextChanged);
             // 
             // label8
             // 
